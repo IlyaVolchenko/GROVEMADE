@@ -1,0 +1,394 @@
+@import 'reset';
+@import 'global';
+
+.header {
+  padding-top: 30px;
+
+  &__top {
+    &-inner {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+  }
+
+  &__button-cart {
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+    background-color: #fff;
+  }
+
+
+  &__bottom {
+    margin-top: 30px;
+    background-image: url('../images/hb-fon.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+    height: 504px;
+
+
+    &-item {
+      color: #FFFFFF;
+      padding-top: 188px;
+    }
+
+    &-title {
+      font-size: 43px;
+      line-height: 46px;
+      margin-bottom: 12px;
+    }
+
+    &-text {
+      font-size: 15px;
+      line-height: 18px;
+      letter-spacing: 0.8px;
+      margin-bottom: 28px;
+    }
+
+    &-link {
+      display: inline-block;
+      font-size: 13px;
+      line-height: 15px;
+      letter-spacing: 1.4px;
+      text-transform: uppercase;
+      color: #fff;
+    }
+  }
+}
+
+.menu {
+  &__list {
+    display: flex;
+
+    &-item+.menu__list-item {
+      margin-left: 24px;
+    }
+  }
+
+  &__link {
+    font-size: 13px;
+    text-transform: uppercase;
+    line-height: 15px;
+    letter-spacing: 1.4px;
+    color: #000;
+  }
+}
+
+.skills {
+  padding: 80px 0 100px;
+
+  &__content {
+    margin-bottom: 80px;
+  }
+
+  &__title {
+    margin-bottom: 25px;
+    font-size: 43px;
+    line-height: 58px;
+    letter-spacing: 0.8px;
+  }
+
+  &__text {
+    margin-bottom: 25px;
+    font-size: 14px;
+    letter-spacing: 0.8px;
+    line-height: 24px;
+    color: #A0A0A0;
+  }
+
+  &__link {
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+    color: #000;
+    display: inline-block;
+  }
+
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__item {
+    margin-right: 12px;
+    text-align: center;
+
+    &-subtitle {
+      font-size: 27px;
+      line-height: 30px;
+      margin: 48px 0 23px;
+    }
+
+    &-link {
+      font-size: 13px;
+      line-height: 15px;
+      display: inline-block;
+      letter-spacing: 1.4px;
+      text-transform: uppercase;
+      color: #000000;
+    }
+  }
+
+  &__slider {
+    margin-top: 118px;
+
+    &-items{
+      display: flex !important;
+    }
+
+    &-item{
+      margin: 0 10px;
+    }
+
+    &-title {
+      font-size: 33px;
+      line-height: 36px;
+      margin-bottom: 14px;
+    }
+
+    &-text {
+      font-size: 15px;
+      line-height: 18px;
+      letter-spacing: 0.8px;
+      color: #A0A0A0;
+      margin-bottom: 83px;
+    }
+
+    &-item {
+      font-size: 14px;
+      line-height: 21px;
+      letter-spacing: 0.7px;
+      color: #A0A0A0;
+    }
+
+    &-subtitle {
+      margin-top: 22px;
+    }
+  }
+}
+
+.slick-dots {
+  position: absolute;
+  bottom: 510px;
+  display: block;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-align: center;
+}
+
+.slick-dots li {
+  position: relative;
+  margin-top: -25px;
+  background-color: #000;
+  border-radius: 0px;
+  width: 7px;
+  text-align: center;
+  height: 7px;
+  margin-right: 16px;
+}
+
+.slick-dots li button:before {
+  content: "";
+}
+
+.office {
+  margin-bottom: 42px;
+
+  &__top {
+    background-image: url('../images/office/office-fon.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    height: 504px;
+  }
+
+  &__title {
+    padding-top: 181px;
+    font-size: 66px;
+    line-height: 70px;
+    margin-bottom: 7px;
+    color: #FFFFFF;
+  }
+
+  &__text {
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.8px;
+    color: #FFFFFF;
+    margin-bottom: 36px;
+  }
+
+  &__link {
+    display: inline-block;
+    font-size: 13px;
+    color: #FFFFFF;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+    line-height: 15px;
+  }
+
+  &__made {
+    padding-top: 116px;
+
+    &-title {
+      font-size: 34px;
+      line-height: 36px;
+      margin-bottom: 23px;
+    }
+
+    &-text {
+      font-size: 16px;
+      line-height: 24px;
+      letter-spacing: 0.8px;
+      color: #A0A0A0;
+      width: 777px;
+      margin-bottom: 23px;
+    }
+  }
+}
+
+.work {
+  margin-bottom: 120px;
+
+  &__title {
+    font-size: 34px;
+    line-height: 36px;
+    margin-bottom: 19px;
+  }
+
+  &__text {
+    font-size: 16px;
+    line-height: 24px;
+    width: 789px;
+    margin-bottom: 80px;
+    letter-spacing: 0.8px;
+    color: #A0A0A0;
+  }
+
+  &__command {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 27px 24px;
+  }
+
+  &__wishes {
+
+    &-title {
+      margin-bottom: 44px;
+      font-size: 34px;
+      line-height: 36px;
+      padding-top: 96px;
+    }
+
+    &-link {
+      font-size: 13px;
+      line-height: 21px;
+      letter-spacing: 1.4px;
+      text-transform: uppercase;
+      color: #000000;
+    }
+  }
+}
+
+.desing {
+  background-color: #9AA8B1;
+  padding: 120px 0 120px;
+  margin-bottom: 40px;
+
+  &__title {
+    padding: 24px 0 23px;
+    font-size: 43px;
+    line-height: 58px;
+    color: #FFFFFF;
+  }
+
+  &__text {
+    letter-spacing: 0.8px;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFFFFF;
+  }
+}
+
+.footer {
+  padding: 40px 0 19px;
+
+  &__content-link {
+    text-align: right;
+  }
+
+  &__link-images {
+    display: inline-block;
+  }
+
+  &__top {
+    display: flex;
+  }
+
+  &__info {
+    width: 170px;
+    margin-right: 12px;
+  }
+
+  &__link {
+    display: block;
+    font-size: 22px;
+    line-height: 24px;
+    margin-bottom: 16px;
+    color: #000000;
+  }
+
+  &__signup {
+    width: 500px;
+  }
+
+  &__title {
+    font-size: 22px;
+    line-height: 24px;
+    margin-bottom: 20px;
+  }
+
+  &__text {
+    width: 360px;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.8px;
+    color: #A0A0A0;
+    margin-bottom: 44px;
+  }
+
+  &__input {
+    border: none;
+    padding: 12px 10px;
+    border-bottom: 1px solid #000000;
+  }
+
+  &__bottom {
+    padding-top: 80px;
+  }
+
+  &__menu {
+    display: flex;
+    justify-content: right;
+
+    &-list+.footer__menu-list {
+      margin-left: 38px;
+    }
+
+    &-link {
+      font-size: 13px;
+      line-height: 15px;
+      letter-spacing: 0.8px;
+      color: #707A7F;
+    }
+  }
+}
+
+
+@import 'media';

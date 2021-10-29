@@ -1,0 +1,196 @@
+@media (max-width: 1300px) {
+  .slick-dots li {
+    display: none;
+  }
+}
+
+// @media (max-width: 1200px) {}
+
+@media (max-width: 1100px) {
+
+  .skills {
+    padding: 80px 0 0 0;
+  }
+
+  .skills__slider-items {
+    display: grid !important;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 40px 2px;
+    text-align: center;
+  }
+
+  .skills__slider-item {
+    font-size: 17px;
+    line-height: 25px;
+    margin-bottom: 10px;
+  }
+
+  .skills__slider-item img {
+    display: inline-block;
+  }
+
+  .office {
+    &__made {
+      &-text {
+        width: auto;
+      }
+    }
+  }
+
+  .work {
+    &__text {
+      width: auto;
+    }
+  }
+}
+
+// @media (max-width: 1000px) {}
+
+// @media (max-width: 900px) {}
+
+@media (max-width: 800px) {
+  .skills {
+    padding: 80px 0 20px;
+
+    &__inner {
+      display: block;
+    }
+
+    &__content {
+      margin-bottom: 40px;
+    }
+
+    &__item {
+      text-align: center;
+      margin-bottom: 40px;
+
+      &-img {
+        display: inline-block;
+      }
+    }
+  }
+
+  .office {
+
+    &__title {
+      padding-top: 95px;
+    }
+
+    &__link {
+      padding: 20px 15px;
+      background-color: #000;
+      border-radius: 5 px;
+      font-size: 18px;
+      letter-spacing: 5.4px;
+    }
+  }
+}
+
+// @media (max-width: 700px) {}
+
+@media (max-width: 600px) {
+  .header {
+    &__top-inner {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      text-align: center;
+    }
+
+    &__button-cart {
+      margin: 20px 0 0 20px;
+      font-size: 16px;
+    }
+
+    &__bottom {
+      &-item {
+        padding-top: 107px;
+      }
+
+      &-title {
+        font-size: 60px;
+        line-height: 70px;
+      }
+
+      &-text {
+        font-size: 18px;
+        margin-bottom: 25px;
+      }
+
+      &-link {
+        padding: 20px 15px;
+        background-color: #000;
+        border-radius: 5px;
+        font-size: 18px;
+        letter-spacing: 5.4px;
+      }
+    }
+  }
+
+  .skills__slider-items {
+    display: block !important;
+  }
+
+  .menu {
+    margin: 20px 0 20px 20px;
+
+    &__link {
+      font-size: 18px;
+    }
+  }
+
+  .work {
+    &__command {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-gap: 27px 24px;
+      text-align: center;
+    }
+  }
+
+  .footer {
+    &__top {
+      display: block;
+    }
+
+    &__info {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      text-align: center;
+      align-items: center;
+      width: auto;
+      margin-bottom: 40px;
+    }
+
+    &__link {
+      display: inline-block;
+      font-size: 25px;
+      margin-bottom: 30px;
+    }
+
+    &__signup {
+      width: auto;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      text-align: center;
+      align-items: center;
+    }
+
+    &__title{
+      font-size: 24px;
+    }
+
+    &__text{
+      font-size: 15px;
+    }
+  }
+}
+
+// @media (max-width: 500px) {}
+
+// @media (max-width: 400px) {}
+
+// @media (max-width: 350px) {}
